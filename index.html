@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Generate passphrase</title>
+    <meta name="description" content="Basic HTML">
+    <meta name="author" content="pom">
+    <script src="sk-hesla.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <form action="">
+      <input readonly="readonly" id="password" onclick="this.select()">
+    </form>
+    <script type="text/javascript">
+      const pwdEl = document.getElementById("password");
+      pwdEl.value = generatePassphrase(dictData);
+    </script>
+  </body>
+</html>
