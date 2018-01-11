@@ -2,6 +2,7 @@
 
 Vygeneruj si heslá
 
+Live example: [https://codepen.io/pomali/full/OzzOrZ/](https://codepen.io/pomali/full/OzzOrZ/)
 Run: 
 `node sk-hesla.js`
 
